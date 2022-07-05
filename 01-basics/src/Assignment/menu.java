@@ -54,7 +54,6 @@ public class menu {
 		System.out.print("Please choose 1 or 2 :");
 		int NoOfOrder = sc.nextInt();
 		 
-		sc.close();
 		
 		if(NoOfOrder == 1) {
 			LocalTime today = LocalTime.now();
@@ -77,6 +76,8 @@ public class menu {
 			System.out.println("Arrival Date: "+thisday.plusDays(Dday).format(f2) );
 			System.out.println("***** Thank you for your ordering *****");
 		}
+		sc.close();
+
 	}
 
 }
