@@ -8,6 +8,7 @@ public class Question_or_not {
 	public static void main(String[] args) {
 
 		Scanner sc =  new Scanner(System.in);
+		System.out.println("Enter a sentance: ");
 		String sentence = sc.nextLine();
 		
 		String[] data = sentence.split(" ");
