@@ -12,7 +12,11 @@ public class Paragraph_Assignment {
 		String[] data2 = s1.split("\\.");
 //		System.out.println(Arrays.toString(data2));
 		System.out.println("Total sentences :"+data2.length);
-
+		
+		String[] data3 = s1.split("");
+//		System.out.println(Arrays.toString(data3));
+		System.out.println("Total characters :"+data3.length);
+		
 	}
 
 }
