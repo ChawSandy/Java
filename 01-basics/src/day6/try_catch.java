@@ -18,10 +18,11 @@ public class try_catch {
 		} catch (ArithmeticException obj1) {// execute when exception occurs in try block
 			System.err.print("Divisor must not be zero.");
 		} catch (NumberFormatException obj2) {// execute when exception occurs in try block
-			System.err.print("User input must not be number.");
+			System.err.print("User input must be number.");
 		} catch (Exception obj3) {// execute when exception occurs in try block
-			System.err.print(obj3.getMessage());
+			System.err.println(obj3.getMessage());
 		}  
+			System.out.println();
 			System.out.println("Outside try and catch block");
 		
 		

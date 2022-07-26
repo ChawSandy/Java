@@ -16,9 +16,9 @@ public class User_NRCNO {
 		String[] arr2 =arr[1].split("\\)");
 			
 		
-//		System.out.println(Arrays.toString(arr));
-//		System.out.println(Arrays.toString(arr1));
-//		System.out.println(Arrays.toString(arr2));
+		System.out.println(Arrays.toString(arr));
+		System.out.println(Arrays.toString(arr1));
+		System.out.println(Arrays.toString(arr2));
 
 		System.out.println("Township :"+ arr1[1]);
 		System.out.println("Number :"+ arr2[1]);
